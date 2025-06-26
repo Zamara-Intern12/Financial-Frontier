@@ -1,0 +1,5 @@
+function g(t){return t&&t.__esModule&&Object.prototype.hasOwnProperty.call(t,"default")?t.default:t}/*
+object-assign
+(c) Sindre Sorhus
+@license MIT
+*/var f,i;function O(){if(i)return f;i=1;var t=Object.getOwnPropertySymbols,l=Object.prototype.hasOwnProperty,b=Object.prototype.propertyIsEnumerable;function p(n){if(n==null)throw new TypeError("Object.assign cannot be called with null or undefined");return Object(n)}function j(){try{if(!Object.assign)return!1;var n=new String("abc");if(n[5]="de",Object.getOwnPropertyNames(n)[0]==="5")return!1;for(var c={},r=0;r<10;r++)c["_"+String.fromCharCode(r)]=r;var a=Object.getOwnPropertyNames(c).map(function(e){return c[e]});if(a.join("")!=="0123456789")return!1;var o={};return"abcdefghijklmnopqrst".split("").forEach(function(e){o[e]=e}),Object.keys(Object.assign({},o)).join("")==="abcdefghijklmnopqrst"}catch{return!1}}return f=j()?Object.assign:function(n,c){for(var r,a=p(n),o,e=1;e<arguments.length;e++){r=Object(arguments[e]);for(var u in r)l.call(r,u)&&(a[u]=r[u]);if(t){o=t(r);for(var s=0;s<o.length;s++)b.call(r,o[s])&&(a[o[s]]=r[o[s]])}}return a},f}var v=O();const m=g(v);export{g,m as o};
