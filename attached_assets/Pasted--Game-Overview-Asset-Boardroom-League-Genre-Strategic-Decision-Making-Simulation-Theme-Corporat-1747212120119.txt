@@ -1,0 +1,200 @@
+🎮 Game Overview: Asset Boardroom League
+Genre: Strategic Decision-Making Simulation
+Theme: Corporate Finance & Risk Management
+Target Audience: Finance professionals, students, and enthusiasts
+
+🧠 Game Mechanics
+1. Technicality Levels
+Beginner: Basic financial scenarios with straightforward choices.
+
+Intermediate: Incorporates real-world complexities and requires analytical thinking.
+
+Advanced: Presents multifaceted scenarios demanding strategic decision-making.
+Rosebud AI
++1
+layer.ai
++1
+
+Implementation: Each scenario is tagged with a technicality level, guiding the AI to adjust the complexity of questions accordingly.
+Reddit
+
+2. Point Awarding System
+Correct Decision: +5 points
+
+Partially Correct Decision: +2 points
+
+Incorrect Decision: 0 points
+YouTube
++6
+Scenario
++6
+Reddit
++6
+layer.ai
++4
+YouTube
++4
+eClass UOA
++4
+Looka
+
+Note: Points are awarded based on the alignment of the player's choice with best practices in financial risk management.
+Ludo.ai
++2
+pedocs.de
++2
+Connecticut General Assembly
++2
+
+3. Scenario Presentation
+Structure:
+
+Scenario ID: Unique identifier
+
+Question: Detailed scenario description
+
+Options: Multiple-choice answers
+
+Scores: Corresponding points for each option
+YouTube
++8
+Connecticut General Assembly
++8
+Scenario
++8
+
+Example:
+
+json
+Copy
+Edit
+{
+  "id": 1,
+  "question": "A client’s liability profile has shifted due to macroeconomic disruptions. You’re leading the actuarial consulting review. What’s the best action?",
+  "options": [
+    "Perform a complete asset-liability modeling simulation with Monte Carlo stress paths.",
+    "Freeze liability assumptions for this quarter and focus on peer benchmarking.",
+    "Use a proxy model while awaiting market stabilization."
+  ],
+  "scores": [5, 2, 0]
+}
+🏆 Leaderboard Design
+Structure:
+
+Columns: Rank, Player Name, Avatar, Total Points, Technicality Level
+
+Sorting: Descending order based on Total Points
+
+Visual Inspiration: Modeled after FIFA 2025 tables with a clean, tabular layout.
+
+🧍 Avatar Profiles
+Each avatar represents a unique player persona:
+
+NEHA: 🌸 - Risk Analyst
+
+JANELUCY: 📘 - Investment Strategist
+
+WALTER: 🎯 - Portfolio Manager
+
+REGINALD: 🎩 - Compliance Officer
+
+BERYL: 💼 - Financial Advisor
+
+LILIAN: 📊 - Market Analyst
+
+JOHN: 📈 - Actuarial Consultant
+pedocs.de
++4
+layer.ai
++4
+Rosebud AI
++4
+
+Avatar Appearance: Displayed as emojis next to player names throughout the game interface.
+
+🔐 Authentication Flow
+1. Login Page
+Fields:
+
+Username: Text input
+
+Password: Secure input
+
+Features:
+
+Live Background: Animated visuals (e.g., moving graphs, dynamic charts)
+
+Authentication: Validates user credentials against stored data
+Looka
+
+2. Password Creation
+During Registration:
+
+Password Requirements: Minimum 8 characters, including letters and numbers
+
+Confirmation: Re-enter password for verification
+
+Note: Ensure secure storage of passwords using hashing algorithms.
+
+🎨 Background Design
+Login Page: Live, animated background to engage users upon entry.
+
+Dashboard, Play Game, Leaderboard: Static, professional backgrounds to maintain focus.
+Scenario
+Ludo.ai
++7
+Rosebud AI
++7
+pedocs.de
++7
+
+Implementation: Utilize CSS animations or video backgrounds for the login page, and high-resolution images for other sections.
+
+📂 Additional Features
+Dashboard:
+
+Overview: Displays player's progress, recent scores, and upcoming scenarios.
+
+Navigation: Links to Play Game and Leaderboard sections.
+Rosebud AI
+
+Play Game:
+
+Scenario Display: Presents current scenario with options.
+
+Interaction: Allows selection and submission of answers.
+
+Leaderboard:
+
+Real-Time Updates: Reflects players' standings as they progress.
+
+Filters: Option to view rankings based on technicality levels.
+
+🛠️ AI Game Generator Specifications
+To generate this game using an AI game generator, provide the following specifications:
+
+Game Title: Asset Boardroom League
+
+Genre: Strategic Decision-Making Simulation
+
+Theme: Corporate Finance & Risk Management
+
+Target Audience: Finance professionals, students, and enthusiasts
+
+Technicality Levels: Beginner, Intermediate, Advanced
+
+Point System: 5 points for correct, 2 for partial, 0 for incorrect answers
+
+Leaderboard Design: FIFA 2025 table style
+
+Avatars: Seven unique personas with emoji representations
+
+Authentication: Username and password login with live background
+
+Backgrounds:
+
+Login Page: Live, animated
+
+Other Pages: Static, professional
+
+Additional Features: Dashboard overview, real-time leaderboard, scenario-based gameplay
